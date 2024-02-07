@@ -10,7 +10,7 @@
 
     <img src="./assets/leagueIcon.png" alt="" srcset="" >
     <h1 >
-      My League Stats
+      My League Statistic
     </h1>
   
     <searchBar></searchBar>
