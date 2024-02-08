@@ -1,0 +1,1 @@
+https://la1.api.riotgames.com/lol/summoner/v4/summoners/by-name/stakeland?api_key=RGAPI-e5afaeff-450a-41c0-9a3e-4de46ff9e770
