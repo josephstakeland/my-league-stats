@@ -15,7 +15,7 @@ body {
 
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
     height: 80vh;
@@ -35,3 +35,14 @@ body {
     
 }
 
+.summoner_card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.summoner_card img {
+    border-radius: 5rem;
+    width: 10rem;
+    height:  10rem;
+}
