@@ -25,9 +25,17 @@ body {
 
     color:#EAE6E5 ;
     text-align: center;
-    
+    margin: 1rem;
     font-size: 2.5rem;
 
+}
+
+.titleName {
+  font-size: 1.5rem;
+}
+
+.titleLevel {
+  font-size: 1rem;
 }
 
 .main-title img {
@@ -36,15 +44,15 @@ body {
 }
 
 .summoner_card {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 0.5rem;
 }
 
 .summoner_card img {
     border-radius: 5rem;
-    width: 10rem;
-    height:  10rem;
+    height:  5rem;
 }
 
 .search_input {

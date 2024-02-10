@@ -6,13 +6,14 @@
 
   </div>
   <div className="summoner_card" v-if="playerName.name || playerData.summonerLevel">
-    <p>
-      <span v-if="playerName.name">player name: {{ playerName.name }}</span>
-      <span v-else>&nbsp;</span>
-    </p>
     <img v-if="playerIcon.profileIconId" :src="'https://ddragon.leagueoflegends.com/cdn/14.3.1/img/profileicon/' + playerIcon.profileIconId + '.png'" alt="" />
     <p>
-      <span v-if="playerData.summonerLevel">Summoner Level: {{ playerData.summonerLevel }}</span>
+      <span className="titleName" v-if="playerName.name">{{ playerName.name }}</span>
+      <span v-else>&nbsp;</span>
+    </p>
+    
+    <p>
+      <span className="titleLevel" v-if="playerData.summonerLevel">Summoner Level: {{ playerData.summonerLevel }}</span>
       <span v-else>&nbsp;</span>
     </p>
  
